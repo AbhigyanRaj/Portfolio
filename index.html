@@ -1,0 +1,372 @@
+<!-- Intial template was taken from https://github.com/kartikcho/dark-portfolio-template -->
+<!-- Modified by Abhigyan Raj -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Abhigyan Raj</title>
+    <meta name="title" content="Abhigyan Raj Portfolio">
+    <meta name="description" content="Abhigyan Raj's Portfolio">
+    <meta name="keywords" content="Abhigyan Raj, Abhigyan, Raj, Portfolio, Abhigyan Raj Portfolio">
+    <meta name="author" content="Abhigyan Raj">
+    <link rel="shortcut icon" href="Media/pfp3.png" type="image/x-icon">
+    <link rel="stylesheet" href="./index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="SHA-512-hash">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/locomotive-scroll/4.0.6/locomotive-scroll.min.js"></script>
+    <style>
+    .book-btn {
+        background-color: #e9e9e9;  /* Light gray color */
+        color: #333;
+        font-weight: 500;
+        padding: 8px 16px;
+        border-radius: 6px;
+        transition: all 0.2s ease;
+        margin-top: 10px;
+        display: inline-block;
+        text-decoration: none;
+        border: none;
+        font-size: 16px;
+    }
+    
+    .book-btn:hover {
+        background-color: #dedede;
+        color: #333;
+        text-decoration: none;
+    }
+    </style>
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container">
+            <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#intro">intro</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#stack">tech stack</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#workX">experience</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#education">education</a>
+                    </li>
+                    <!-- <li class="nav-item">
+                        <a class="nav-link" href="https://drive.google.com/file/d/1olOBV2etW1R0qPjU4EcVAYkkCdQ_ORoS/view?usp=sharing" target="_blank">résumé</a>
+                    </li> -->
+                    <li class="nav-item">
+                        <a class="nav-link" href="#projects">projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#awards">achievements</a>
+                    </li>
+                    
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+        <section class="landing">
+            <div class="row vertical-center">
+                <div class="col-lg-8 text-left pb-5">
+                    <h1 class="display-1">Abhigyan Raj</h1>
+                    <p class="lead pl-2">Undergraduate Student <a style="text-decoration: none;
+                        color: inherit;" target="_blank"  href="http://iiitd.ac.in/"> @IIIT Delhi</a> </p>
+                    <a href="mailto:abhigyan23018@iiitd.ac.in?subject=Meeting%20Request%20from%20Portfolio&body=Hey%20Abhigyan%2C%20I%20looked%20at%20your%20portfolio%20website.%20Can%20we%20have%20a%20short%2010-min%20meet%3F" class="book-btn">Book 1-on-1</a>
+                </div>
+                <div class="col-lg-4 text-center my-auto pb-5">
+                    <img class="img-fluid rounded-custom shadow-effect" src="Media/pfp.png" alt="Profile Picture">
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <div class="container" data-scroll-container>
+        <section id="intro" class="landing">
+            <h4 class="display-4">A little about me,</h4>
+            <div class="row">
+                <div class="col-lg-6 wrap text-left">
+                    <div class="about-desc">
+                        <h1 class="bold-text">About</h1>
+                        <div class="pt-5">
+                            <h2 class="mb-5">Hello! （＾ω＾）</h2>
+                            <p>  
+                                • i'm Abhigyan, 20, an aspiring Software Developer and Web Development.<br>
+                                • my expertise lies in <strong>Data Structures and Algorithms (DSA)</strong>, <strong>Object-Oriented Programming (OOP)</strong>, <strong>Computer Vision (CV)</strong>, <strong>Google Cloud Platform (GCP)</strong>, and <strong>Firebase</strong>.<br>
+                                • most of my learnings are from either hands-on projects that i build or from interesting courses taught at my university.<br>
+                                • tags: problem solver, quick learner, team player, stay positive.
+                            </p>
+                            <ul class="social-links list-unstyled mt-4">
+                                <li><a target="_blank" href="mailto:abhigyan23018@iiitd.ac.in" data-tooltip="Email">
+                                        <i class="fas fa-envelope"></i>
+                                    </a></li>
+                                <li><a target="_blank" href="https://github.com/AbhigyanRaj" data-tooltip="GitHub">
+                                        <i class="fab fa-github"></i>
+                                    </a></li>
+                                <li><a target="_blank" href="https://www.linkedin.com/in/abhigyan-raj-6211502a1/" data-tooltip="LinkedIn">
+                                        <i class="fab fa-linkedin"></i>
+                                    </a></li>
+                                <li><a target="_blank" href="https://www.youtube.com/@Abhigyann_" data-tooltip="YouTube">
+                                        <i class="fab fa-youtube"></i>
+                                    </a></li>
+                                <li><a target="_blank" href="https://www.youtube.com/@AbhigyanCode" data-tooltip="YouTube (Tech)">
+                                        <i class="fab fa-youtube"></i>
+                                    </a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 text-center my-auto pb-5">
+                    <img class="img-fluid rounded-custom shadow-effect" src="Media/pfp2.jpg" alt="Profile Picture">
+                </div>
+            </div>
+        </section>
+
+        <section id="stack" class="interests pt-5 pb-5">
+            <h1 class="display-4">Tech Stack</h1>
+            <h1 class="bold-text bg-text">Skills</h1>
+            <div class="mt-5">
+                <p>
+                    • <strong>Programming Languages:</strong> C, C++, Python, Java, JavaScript, HTML, CSS<br>
+                    • <strong>Tools & Technologies:</strong> Next.js, React Native, Redux, GSAP<br>
+                    • <strong>Expertise Areas:</strong> Data Structures and Algorithms (DSA), Object-Oriented Programming (OOP), Computer Vision (CV), Google Cloud Platform (GCP), Firebase<br>
+                    • <strong>Relevant Coursework:</strong> Advanced Programming, Artificial Intelligence, API Development<br>
+                </p>
+            </div>
+        </section>
+        
+        <section id="workX" class="interests pt-5 pb-5">
+            <h1 class="display-4 mt-5">Experience</h1>
+                <h1 class="bold-text bg-text">Profile</h1>
+                <div class="row d-flex">
+                    <div class="col-md-10">
+                        <div class="mt-3">
+
+                            <div class="py-4">
+                                <div class="desc">
+                                    <h4>Intern</h4>
+                                    <p>Jeevan Yatra Vikiran (Rural)<br><span class="date">May, 2024 - July, 2024 | Team Size: 5</span></p>
+                                    • Built a full-stack website using <strong>React</strong> and <strong>Tailwind CSS</strong>, improving usability and modernizing the design.<br>
+                                    • Integrated <strong>Razorpay</strong> for seamless and secure payment gateway functionality, supporting up to all transactions.<br>
+                                </p>
+                            </div>
+
+                            <div class="py-4">
+                                <div class="desc">
+                                    <h4>Designer & Developer</h4>
+                                    <p>SSS-Logistics (Industrial) | <br><span class="date">Aug, 2024 - Sept, 2024 | Team Size: 1</span></p>
+                                    • Designed and Developed a professional portfolio website, enhancing the client's online presence.<br>
+                                    • Managed <strong>DevOps</strong> tasks, deploying the site through <strong>Hostinger</strong> and <strong>Vercel</strong> for high availability and performance.<br>
+                                </p>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+        </section>
+
+        <section id="education">
+            <h1 class="display-4 mt-5">Education</h4>
+                <h1 class="bold-text bg-text">Academics</h1>
+                <div class="py-4">
+                    <div class="desc">
+                        <h4>Indraprastha Institute of Information Technology, Delhi</h4>
+                        <p>B.Tech. (Majors in Electronics and Communications)<br><span class="date">2023 - 2027</p>
+                    </div>
+                </div>
+                <div class="py-4">
+                    <div class="desc">
+                        <h4>Aryan International School, New Delhi</h4>
+                        <p>CBSE (Grade XII)<br><span class="date">2022 - 2023 | Percentage: 81.4%</p>
+                    </div>
+                </div>
+                <div class="py-4">
+                    <div class="desc">
+                        <h4>St. Joseph Academy, Bihar Sharif, Bihar</h4>
+                        <p>CBSE (Grade X)<br><span class="date">2020 - 2021 | Percentage: 96.4%</p>
+                    </div>
+                </div>
+        </section>
+
+        <section id="projects">
+            <h1 class="display-4 mt-5">Projects</h4>
+            <h1 class="bold-text bg-text">Work</h1>
+            <div class="py-4">
+                <div class="desc">
+                    <p><strong><a target="_blank" href="https://klera.netlify.app/">Klera: Gaming</a></strong> | <a target="_blank" href="https://www.youtube.com/watch?v=mJhD8X_8VJA">Demo Video</a><br><span class="date">React.js, Vite, Tailwind CSS, Firebase, Netlify | May 2024 - July 2024 | Team Size: 1</span>
+                        <br>
+                        • Developed a gaming platform integrating a dynamic wallet system for buying coins, playing games, and selling coins for real money. Supported both single-player and 1v1 multiplayer modes.
+                        <br/>
+                    </p>
+                </div>
+            </div>
+
+            <div class="py-4">
+                <div class="desc">
+                    <p><strong><a target="_blank" href="https://github.com/AbhigyanRaj/AngryBird_02">Angry Birds Game</a></strong> | <a target="_blank" href="https://www.youtube.com/watch?v=XzEAioPNFiY&feature=youtu.be">Demo Video</a><br><span class="date">Java, libGDX, Figma, Gradle | Jan 2024 - Mar 2024 | Team Size: 2</span>
+                        <br>
+                        • Designed a libGDX-based game inspired by Angry Birds, featuring modular states like menu, level selection, and gameplay. Integrated Gradle for builds and optimized assets using Figma.
+                        <br/>
+                    </p>
+                </div>
+            </div>
+
+            <div class="py-4">
+                <div class="desc">
+                    <p><strong><a target="_blank" href="https://github.com/AbhigyanRaj/RealTImeObject_Detector">Real-Time Object Detector</a></strong><br><span class="date">Python, OpenCV, YOLOv3, Computer Vision | Nov 2023 - Dec 2023 | Team Size: 1</span>
+                        <br>
+                        • Built a real-time object detection system using YOLOv3 and OpenCV, capable of detecting 80 classes with 30 fps. Highlighted detected objects with bounding boxes and confidence scores.
+                        <br/>
+                    </p>
+                </div>
+            </div>
+
+            <div class="py-4">
+                <div class="desc">
+                    <p><strong><a target="_blank" href="https://collab-1.vercel.app/">Student Collaboration Platform</a></strong><br><span class="date">React.js, JavaScript, Tailwind CSS, AI Chatbot | Aug 2023 - Oct 2023 | Team Size: 1</span>
+                        <br>
+                        • Developed an AI chatbot to connect students with mentors and facilitate collaborative learning. Integrated an AI chatbot for academic guidance and created a responsive UI using Tailwind CSS.
+                        <br/>
+                    </p>
+                </div>
+            </div>
+
+            <div class="py-4">
+                <div class="desc">
+                    <p><strong><a target="_blank" href="https://github.com/AbhigyanRaj/Course-Registration-Portel">University Course Management System</a></strong> | <a target="_blank" href="https://www.youtube.com/watch?v=rid-t7MLsto">Demo</a><br><span class="date">Java, OOP, IDE (Eclipse/IntelliJ) | June 2023 - July 2023 | Team Size: 1</span>
+                        <br>
+                        • Built a Java-based course management system for course registration and professor assignments. Applied OOP principles for scalability and implemented OOP principles for scalability and implemented separate access rights for users.
+                        <br/>
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section id="responsibility">
+            <h1 class="display-4 mt-5">Positions of Responsibility</h4>
+            <h1 class="bold-text bg-text">Leadership</h1>
+            <div class="py-4">
+                <div class="desc">
+                    <h4>Lead Web Developer</h4>
+                    <p>E-Cell, IIIT Delhi<br><span class="date">Aug 2024 - Present</span></p>
+                    • Conducted web development workshops for 100+ students, fostering technical skills and collaboration.<br>
+                    • Led projects that supported entrepreneurial initiatives across the institute.<br>
+                </div>
+            </div>
+            <div class="py-4">
+                <div class="desc">
+                    <h4>Coverage Team Lead</h4>
+                    <p>Women in Tech, IIIT Delhi<br><span class="date">Aug 2024 - Present</span></p>
+                    • Led filmmaking, video editing, and social media management efforts, ensuring impactful storytelling and outreach for Women in Tech events and initiatives.<br>
+                </div>
+            </div>
+            <div class="py-4">
+                <div class="desc">
+                    <h4>Content Creation Team Lead</h4>
+                    <p>E-Summit, IIIT Delhi<br><span class="date">Feb 2024 - Mar 2024</span></p>
+                    • Directed the content creation team, overseeing the production of high-quality promotional materials and campaigns for E-Summit.<br>
+                </div>
+            </div>
+        </section>
+
+        <section id="awards">
+            <h1 class="display-4 mt-5">Awards and Achievements</h4>
+            <h1 class="bold-text bg-text">awards</h1>
+
+            <div class="py-4">
+                <div class="desc">
+                    <ul>
+                        <li><strong>Epoch Hackathon IIIT Delhi:</strong> Won the hackathon with the project <strong>IndieCraft</strong>, a website designed to empower local artisans by providing a platform where they can showcase and sell their handcrafted products across the country.</li>
+                        <li><strong>Hackerrank Achievements:</strong> Earned multiple certifications in competitive programming, achieving <strong>5-star</strong> gold ratings in Python and C++ on HackerRank.</li>
+                        <li><strong>CodeChef:</strong> Achieved a current rating of <strong>1263</strong>.</li>
+                        <li>Secured a 10 CGPA in the <strong>Advanced Programming Course CSE201</strong> at IIIT Delhi.</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="interests">
+            <h1 class="display-4 mt-5">Interests and Hobbies</h4>
+            <h1 class="bold-text bg-text">Hobbies</h1>
+            <div class="py-4">
+                <div class="desc">
+                    <ul>
+                        <li>Passionate <strong>Filmmaker</strong>, Director, and Photographer.</li>
+                        <li>Guitarist, Singer, and Songwriter with a love for creating and performing music.</li>
+                        <li>National-level Badminton player with a deep enthusiasm for sports.</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact">
+            <h1 class="display-4 mt-5">Let's Talk</h1>
+            <h1 class="bold-text bg-text">Contact</h1>
+                    <div class="text-left">
+                            <div class="pt-5">
+                                <h5 class="mb-5">Not a founder but would love to ideate on interesting problem statements, both Tech and Non-Tech, and create some impact together. Always open to side projects, collaborations, and discussions.</h5>
+                                <h6>Drop a mail at: abhigyan23018@iiitd.ac.in</h6>
+                                <ul class="social-links list-unstyled mt-4">
+                                    <li><a target="_blank" href="mailto:abhigyan23018@iiitd.ac.in" data-tooltip="Email">
+                                            <i class="fas fa-envelope"></i>
+                                        </a></li>
+                                    <li><a target="_blank" href="https://github.com/AbhigyanRaj" data-tooltip="GitHub">
+                                            <i class="fab fa-github"></i>
+                                        </a></li>
+                                    <li><a target="_blank" href="https://www.linkedin.com/in/abhigyan-raj-6211502a1/" data-tooltip="LinkedIn">
+                                            <i class="fab fa-linkedin"></i>
+                                        </a></li>
+                                    <li><a target="_blank" href="https://www.youtube.com/@Abhigyann_" data-tooltip="YouTube">
+                                            <i class="fab fa-youtube"></i>
+                                        </a></li>
+                                    <li><a target="_blank" href="https://www.youtube.com/@AbhigyanCode" data-tooltip="YouTube (Tech)">
+                                            <i class="fab fa-youtube"></i>
+                                        </a></li>
+                                </ul>
+                            </div>
+                    </div>
+                <div class="mt-5 mb-5 text-center">
+                    <p class="footer-text">made with ♥ by Abhigyan Raj</p>
+                    <p class="footer-text">keep hustling | stay positive :))</p>
+                </div>
+        </section>
+
+    </div>
+
+    <a href="#" class="to-top">
+        <i class="fas fa-chevron-up"></i>
+    </a>
+
+    <div id="cursor-trail"></div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@barba/core"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@barba/css"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/locomotive-scroll/4.0.6/locomotive-scroll.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous">
+    </script>
+    <script src="index.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+</body>
+
+</html>
